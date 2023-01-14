@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="PrimeForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="551"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="4fcf0" binding="Name_form" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties>
+          <autoscrolls value="false"/>
+          <focusCycleRoot value="false"/>
+          <focusTraversalPolicyProvider value="false"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="true"/>
+          <verifyInputWhenFocusTarget value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="bc332" binding="FIO" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="South"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="71c1" binding="middle_name_1" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="South"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="42829" binding="middle_name_2" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="Center"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <grid id="70334" binding="middle_name_2_1" layout-manager="BorderLayout" hgap="0" vgap="0">
+                        <constraints border-constraint="West"/>
+                        <properties>
+                          <preferredSize width="300" height="40"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="e6114" class="javax.swing.JTextArea" binding="textMiddleName">
+                            <constraints border-constraint="East"/>
+                            <properties>
+                              <margin top="0" left="0" bottom="0" right="0"/>
+                              <opaque value="true"/>
+                              <preferredSize width="200" height="30"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="ed1e1" binding="middle_name_2_2" layout-manager="BorderLayout" hgap="0" vgap="0">
+                        <constraints border-constraint="North"/>
+                        <properties>
+                          <preferredSize width="250" height="26"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <grid id="df735" binding="middle_name_3" layout-manager="BorderLayout" hgap="0" vgap="0">
+                            <constraints border-constraint="West"/>
+                            <properties>
+                              <preferredSize width="225" height="16"/>
+                              <requestFocusEnabled value="true"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="bcb24" class="javax.swing.JLabel" binding="form_middle_name">
+                                <constraints border-constraint="East"/>
+                                <properties>
+                                  <text value="Отчество"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="fdb58" binding="forTextName_1" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="West"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="e472a" binding="forTextName2" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <preferredSize width="300" height="40"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="972c5" class="javax.swing.JTextArea" binding="textName">
+                        <constraints border-constraint="East"/>
+                        <properties>
+                          <opaque value="true"/>
+                          <preferredSize width="200" height="30"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="5ea3" binding="forFormName_1" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="North"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="c77d9" binding="forFormName_2" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <preferredSize width="205" height="30"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="2fe10" class="javax.swing.JLabel" binding="formName">
+                        <constraints border-constraint="East"/>
+                        <properties>
+                          <text value="Имя"/>
+                          <verifyInputWhenFocusTarget value="false"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="c194f" binding="surname_text_1" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="c7ae1" binding="surname_text_2" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <preferredSize width="300" height="40"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="61b82" class="javax.swing.JTextArea" binding="textSurname">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <opaque value="true"/>
+                      <preferredSize width="200" height="30"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="4d5e2" binding="formSurname1" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="North"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="16665" binding="formSurname2" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <preferredSize width="225" height="16"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="b2e1f" class="javax.swing.JLabel" binding="formSurname">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <text value="Фамилия"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="ff04a" binding="for_Button" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="11619" binding="for_Button_1" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="North"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="36e78" binding="for_Button_2" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <preferredSize width="230" height="50"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="55d57" class="javax.swing.JButton" binding="collapse">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <actionCommand value="Collapse"/>
+                      <alignmentX value="0.5"/>
+                      <autoscrolls value="true"/>
+                      <doubleBuffered value="false"/>
+                      <focusCycleRoot value="false"/>
+                      <focusTraversalPolicyProvider value="false"/>
+                      <hideActionText value="false"/>
+                      <horizontalAlignment value="0"/>
+                      <label value="Collapse"/>
+                      <margin top="0" left="0" bottom="0" right="0"/>
+                      <preferredSize width="78" height="30"/>
+                      <text value="Collapse"/>
+                      <verticalAlignment value="0"/>
+                    </properties>
+                    <clientProperties>
+                      <hideActionText class="java.lang.Boolean" value="false"/>
+                    </clientProperties>
+                  </component>
+                  <grid id="cfc30" binding="from_Button_border" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints border-constraint="North"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <inspectionSuppressions>
+    <suppress inspection="NoLabelFor"/>
+  </inspectionSuppressions>
+</form>

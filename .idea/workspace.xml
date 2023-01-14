@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fae8826d-a5b8-4973-81f5-2216a9cc06a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ShiftTest_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShiftTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/data-0.2M.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/data-18M.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/data-1M.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/FileGenerate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/Main.java" afterDir="false" />
+    <list default="true" id="fae8826d-a5b8-4973-81f5-2216a9cc06a8" name="Changes" comment="add_pdf">
+      <change afterPath="$PROJECT_DIR$/src/java/PrimeForm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/PrimeForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resourses/ShiftTest.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/resourses/ShiftTest.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resourses/ShiftTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resourses/ShiftTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resourses/ShiftTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resourses/launch4j.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/resourses/launch4j.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,15 +40,20 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/VSGol/IdeaProjects/ShiftTest/res",
-    "project.structure.last.edited": "Project",
+    "last_opened_file_path": "C:/Users/VSGol/IdeaProjects/ShiftTest/src/java",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.28140703"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\VSGol\IdeaProjects\ShiftTest\src\java" />
+      <recent name="C:\Users\VSGol\IdeaProjects\ShiftTest\src\resourses" />
       <recent name="C:\Users\VSGol\IdeaProjects\ShiftTest\res" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\VSGol\IdeaProjects\ShiftTest\src\resourses" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="java" />
@@ -83,6 +83,14 @@
       <option name="presentableId" value="Default" />
       <updated>1673533099576</updated>
     </task>
+    <task id="LOCAL-00001" summary="add_pdf">
+      <created>1673715539358</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673715539359</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,5 +103,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add_pdf" />
+    <option name="LAST_COMMIT_MESSAGE" value="add_pdf" />
   </component>
 </project>
